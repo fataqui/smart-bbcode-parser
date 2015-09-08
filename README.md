@@ -45,7 +45,7 @@ $string = $parser->parse_bbcode_string ();
 
 Return(s)....
 
-[code]
+<code>
 
 /*
 *
@@ -63,7 +63,8 @@ Return(s)....
 */
 
 ?>
-[/code]
+
+</code>
 
 [Contributors]
 Sonia Desbiens, John Ricci
