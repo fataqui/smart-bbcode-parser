@@ -51,14 +51,14 @@ $string = $parser->parse_bbcode_string ();
 *
 * Notice it doesn't just parse bbcode, it also cleans ups the html and removes redundant and bogus bbcodes
 *
-* <span style='font-weight: bold;'>bold</span>
-* <span style='font-style: italic;'>italic</span>
-* <span style='text-decoration: underline;'>underline</span>
-* <span style='text-decoration: line-through;'>strike</span>
+* &#x3C;span style=&#x27;font-weight: bold;&#x27;&#x3E;bold&#x3C;/span&#x3E;
+* &#x3C;span style=&#x27;font-style: italic;&#x27;&#x3E;italic&#x3C;/span&#x3E;
+* &#x3C;span style=&#x27;text-decoration: underline;&#x27;&#x3E;underline&#x3C;/span&#x3E;
+* &#x3C;span style=&#x27;text-decoration: line-through;&#x27;&#x3E;strike&#x3C;/span&#x3E;
 *
-* <span style='color: #FF0000;'>red text</span>
-* <span style='font-size: 3em;'>the size of this text is 3em</span>
-* Hi <span style='font-family: "comic sans ms", times, sans-serif; font-weight: bold;'>Sonia</span>!
+* &#x3C;span style=&#x27;color: #FF0000;&#x27;&#x3E;red text&#x3C;/span&#x3E;
+* &#x3C;span style=&#x27;font-size: 3em;&#x27;&#x3E;the size of this text is 3em&#x3C;/span&#x3E;
+* Hi &#x3C;span style=&#x27;font-family: &#x22;comic sans ms&#x22;, times, sans-serif; font-weight: bold;&#x27;&#x3E;Sonia&#x3C;/span&#x3E;!
 *
 */
 
