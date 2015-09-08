@@ -45,6 +45,8 @@ $string = $parser->parse_bbcode_string ();
 
 Return(s)....
 
+[code]
+
 /*
 *
 * Notice it doesn't just parse bbcode, it also cleans ups the html and removes redundant and bogus bbcodes and, or their bogus values
@@ -61,6 +63,7 @@ Return(s)....
 */
 
 ?>
+[/code]
 
 [Contributors]
 Sonia Desbiens, John Ricci
