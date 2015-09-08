@@ -9,7 +9,9 @@ find on the interweb today. Instead of just trying to get something done, the Sm
 
 [Code Example]
 
-Loading.... (smart_bbcode_parser)
+Loading (smart_bbcode_parser)
+
+...
 
 <?php
 
@@ -43,13 +45,11 @@ Hi [font=\'"comic sans ms", watermelon, times, sans-serif\'][b][b][b][g]Sonia[/g
 
 $string = $parser->parse_bbcode_string ();
 
-Return(s)....
-
-<code>
+/* Return(s) */
 
 /*
 *
-* Notice it doesn't just parse bbcode, it also cleans ups the html and removes redundant and bogus bbcodes and, or their bogus values
+* Notice it doesn't just parse bbcode, it also cleans ups the html and removes redundant and bogus bbcodes
 *
 * <span style='font-weight: bold;'>bold</span>
 * <span style='font-style: italic;'>italic</span>
@@ -64,7 +64,8 @@ Return(s)....
 
 ?>
 
-</code>
+...
+
 
 [Contributors]
 Sonia Desbiens, John Ricci
@@ -75,6 +76,9 @@ links to the API, will be added within the next month....
 
 [Some Of The Parsers Methods]
 
+...
+
+<?php
 
 /* initiate the smart_bbcode_parser */
 
@@ -82,13 +86,15 @@ $parser = new smart_bbcode_parser ();
 
 /* load the Smart BBCode Admin Panel */
 
-<?php
+
 
 $admin = new smart_bbcode_admin ();
 
 $admin->bbcode_admin_panel ();
 
 ?>
+
+...
 
 loads a powerful admin panel that allows one to manage their bbcodes, configuration options, the admin panel can also build a smart_bbcode_parser that only includes the properties and methods you need to plugin into whatever application you want to add the parser too. 
 
@@ -100,7 +106,9 @@ default configuration options...
 turn a bbcode on / off
 add / delete bbcodes
 
-back to the parser....
+back to the parser
+
+...
 
 /* return an information array of all bbcode tags found in a string */
 
